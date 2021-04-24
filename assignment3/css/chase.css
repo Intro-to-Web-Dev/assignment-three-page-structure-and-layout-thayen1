@@ -1,0 +1,138 @@
+body{
+    background-color: #f8f9f9;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 70px 140px 600px 150px;
+}
+
+#headstruct{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color:#393a39;
+}
+
+#subhead{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color:#b5b6b7;
+}
+
+#thirdhead{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #e7e8e8;
+}
+
+#maincontent{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #f8f9f9;
+}
+
+#cwfoot{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: #393a39;
+}
+
+#headstruct{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #e7e8e8;
+    font-family: Marker Felt, sans-serif;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+
+#Logo{
+    font-size: xx-large;
+    width: 140px;
+}
+
+#subhead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Marker Felt, sans-serif;
+}
+
+#chlogo{
+    width: 150px;
+    align-items: center;
+}
+
+#thirdhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#thirdtext{
+    width: 650px;
+}
+
+#title{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    justify-content: space-around;
+    color: blue;
+}
+
+#boldtext{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+.chase{
+    width: 350px;
+    margin-left: 80px;
+}
+
+#SR{
+    width: 250px;
+    text-align: center;
+}
+
+#cwfoot{
+    color: #e7e8e8;
+    font-family: Marker Felt, sans-serif;
+    padding-left: 33px;
+}
+
+#fb{
+    width: 55px;
+    height: auto;
+    float: right;
+}
+
+#ista{
+    width: 70px;
+    height: auto;
+    float: right;
+}
+
+#twit{
+    width: 35px;
+    height: auto;
+    float: right;
+}
